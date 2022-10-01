@@ -16,7 +16,7 @@ You  need  to  Develop  C  or  C++  programs  to  implement  your  semaphore-bas
  
 1. It accepts 10 arguments from the command-line, denoted as b1, b2, ..., b10. Each bi is either  0  or  1.  If  bi  is  0,  it  means  the  ith  arriving  thread  is  a  reader;  otherwise,  it  is  a writer. For example, the programs may be launched as: 
 
- _cse ...> assign4sem _exe 0 1 0 0 1 0 0 0 0 1_
+ _cse ...> assign4sem_exe 0 1 0 0 1 0 0 0 0 1_
   
  _cse ..> assign4mon_exe 0 1 0 0 1 0 0 0 0 1_
  
