@@ -16,9 +16,9 @@ You  need  to  Develop  C  or  C++  programs  to  implement  your  semaphore-bas
  
 1. It accepts 10 arguments from the command-line, denoted as b1, b2, ..., b10. Each bi is either  0  or  1.  If  bi  is  0,  it  means  the  ith  arriving  thread  is  a  reader;  otherwise,  it  is  a writer. For example, the programs may be launched as: 
 
-_cse ...> assign4sem _exe 0 1 0 0 1 0 0 0 0 1_
+ _cse ...> assign4sem _exe 0 1 0 0 1 0 0 0 0 1_
   
-_cse ..> assign4mon_exe 0 1 0 0 1 0 0 0 0 1_
+ _cse ..> assign4mon_exe 0 1 0 0 1 0 0 0 0 1_
  
 meaning  your  programs  should  solve  the  FCFS  version  of  the  reader-writer  problems for the situation that 10 reader/writer threads (i.e., the 2nd, 5th and 10th ones are writers while others are readers for this example) arrive at the system (i.e., start running) in the specified order. 
  
